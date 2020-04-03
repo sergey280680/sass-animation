@@ -1,0 +1,115 @@
+
+
+@mixin appear-1(){
+  #circle-btn {
+    display: none;
+  }
+  .circle-label {
+    display: block;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    margin: 0 auto;
+    opacity: 0.4;
+    cursor: pointer;
+    z-index: 1;
+    bottom: -32px;
+  }
+  .btn {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    color: black;
+    font-size: 125%;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .25em .5em;
+    outline: none;
+    border: 1px solid rgb(250, 172, 17);
+    border-radius: 7px;
+    background: rgb(255, 212, 3) linear-gradient(rgb(255, 212, 3), rgb(248, 157, 23));
+    box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0), inset 0 1px 2px rgba(0, 0, 0, 0), inset 0 0 0 60px rgba(255, 255, 0, 0);
+    transition: box-shadow .2s, border-color .2s;
+  }
+  .circle-label:hover ~ .btn {
+    box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0), inset 0 1px 2px rgba(0, 0, 0, 0), inset 0 0 0 60px rgba(255, 255, 0, .5);
+  }
+  .circle-label:active ~ .btn {
+    padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+    border-color: rgba(177, 159, 0, 1);
+    box-shadow: inset 0 -1px 1px rgba(0, 0, 0, .1), inset 0 1px 2px rgba(0, 0, 0, .3), inset 0 0 0 60px rgba(255, 255, 0, .45);
+  }
+  .circle {
+    width: 80px;
+    height: 80px;
+    background: cyan;
+    border: 1px solid #333;
+    margin: 20px auto;
+    border-radius: 50%;
+    display: none;
+  }
+  #circle-btn:checked ~ .circle {
+    display: block;
+  }
+}
+
+//=========
+@mixin appear-2(){
+  ul {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    display: block;
+    width: 75px;
+    height: 50px;
+    li {
+      list-style-type: none;
+      cursor: pointer;
+      margin-top: 10px;
+      transform: scale(0.9) scale(1);
+    }
+  }
+  #square-btn {
+    display: none;
+  }
+  .square-label {
+    display: block;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    margin: 0 auto;
+    opacity: 0.2;
+    cursor: pointer;
+    z-index: 1;
+    bottom: -29px;
+  }
+  #square-btn:checked ~ .square-label {
+    display: block;
+    width: 45px;
+    height: 20px;
+    position: relative;
+    margin: 0 auto;
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 1;
+    bottom: -58px;
+  }
+  #square-btn:checked ~ .square {
+    display: block;
+  }
+  .square {
+    width: 80px;
+    height: 80px;
+    background: #c2defb;
+    border: 1px solid #333;
+    margin: 20px auto;
+    display: none;
+  }
+}
+
+
+
+
+
+
