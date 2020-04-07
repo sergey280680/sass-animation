@@ -1,20 +1,35 @@
-
 @import "__mixin/mixin";
+@import "__keyframes/main_keyframes";
 
 
 body {
   background: chartreuse;
 }
 
-.animate-appear-1 {
-  @include appear-1()
+
+.box {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: magenta;
+  position: relative;
+  margin: 50px auto 0;
+
+
 }
+  .animation-any {
+    @include keyframe-blind-up(200, 10, 200, 0);
+    @include animation(
+                    blind-up,
+                    1s,
+                    linear,
+                    1,
+                    alternate,
+                    running,
+                    2s,
+                    forwards);
 
-.animate-appear-2 {
-  @include appear-2()
-}
-
-
+  }
 
 
 

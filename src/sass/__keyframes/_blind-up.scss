@@ -1,0 +1,20 @@
+
+@mixin keyframe-blind-up($height0, $height100, $width50, $width100) {
+  @keyframes blind-up {
+    0% {
+      height: ($height0)+px;
+    }
+    50% {
+      height: ($height100)+px;
+      width: ($width50)+px;
+    }
+    100% {
+      height: ($height100)+px;
+      width: ($width100)+px;
+    }
+  }
+}
+
+
+
+

@@ -29,5 +29,7 @@
     "gulp-sass": "^4.0.2",
     "lazypipe": "^1.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "keyframe": "^2.1.0"
+  }
 }
