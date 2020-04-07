@@ -18,7 +18,7 @@ body {
 
 }
   .animation-any {
-    @include keyframe-blind-up(200, 10, 200, 0);
+    @include keyframe-blind-up(200, 5, 200, 0);
     @include animation(
                     blind-up,
                     1s,
