@@ -1,0 +1,41 @@
+
+@import "../../variable";
+.body__hand-left {
+  position: absolute;
+  top: 37px;
+  left: 116px;
+  width: 32px;
+  height: 96px;
+  border-radius: 100% 0 0 0;
+  border-top: 9px solid $color-1;
+  border-left: 2px solid $color-1;
+  transform: rotate(4deg) scaleX(-1);
+  z-index: -1;
+  animation: hand-left 1s linear infinite 1s forwards;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 75px;
+    left: -16px;
+    width: 14px;
+    height: 26px;
+    border-radius: 100% 0 0 0;
+    border-top: 1px solid $color-1;
+    border-left: 2px solid $color-1;
+    transform: rotate(3deg);
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 73px;
+    left: -4px;
+    width: 14px;
+    height: 21px;
+    border-radius: 100% 0 0 0;
+    border-top: 2px solid $color-1;
+    border-left: 1px solid $color-1;
+    transform: rotate(136deg);
+  }
+}

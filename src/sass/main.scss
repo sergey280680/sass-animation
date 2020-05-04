@@ -1,35 +1,32 @@
 @import "__mixin/mixin";
 @import "__keyframes/main_keyframes";
+@import "__body/body";
 
 
-body {
-  background: chartreuse;
-}
+@import "__masyanya/main";
 
 
-.box {
-  display: block;
-  width: 200px;
-  height: 200px;
-  background: magenta;
-  position: relative;
-  margin: 50px auto 0;
 
 
-}
-  .animation-any {
-    @include keyframe-blind-up(200, 5, 200, 0);
-    @include animation(
-                    blind-up,
-                    1s,
-                    linear,
-                    1,
-                    alternate,
-                    running,
-                    2s,
-                    forwards);
 
-  }
+
+//.animation-any {
+//  @include animation(
+//                  four-circle,
+//                  3s,
+//                  ease,
+//                  2,
+//                  normal,
+//                  running,
+//                  1s,
+//                  forwards);
+//}
+//.animation-any:hover {
+//  animation-play-state: paused;
+//}
+
+//@nclude keyframe-blind-up(200, 5, 200, 0);
+
 
 
 

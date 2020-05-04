@@ -1,0 +1,36 @@
+
+@import "../variable";
+
+.cloud-3 {
+  position: absolute;
+  top: 172px;
+  left: 630px;
+  width: 34px;
+  height: 34px;
+  border-radius: 100% 100% 100% 0;
+  background: $color-cloud;
+  animation: 3s cloud linear infinite;
+  animation-delay: -.8s;
+  opacity: 0.6;
+
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -15px;
+    width: 24px;
+    height: 24px;
+    border-radius: 100% 100% 0 0;
+    background: $color-cloud;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100% 100% 0 100%;
+    background: $color-cloud;
+  }
+}

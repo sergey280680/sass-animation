@@ -1,0 +1,20 @@
+@import "../../variable";
+
+.road__lines {
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(90deg, white 70%, transparent 50%);
+  background-size: 150px;
+  height: 15px;
+  top: 6px;
+  animation: road 1s infinite linear;
+}
+
+.road__lines:nth-child(2) {
+
+  top: 245px;
+}
+
+
+
+

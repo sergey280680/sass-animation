@@ -1,0 +1,42 @@
+
+@import "../../variable";
+.body__foot-right {
+  position: absolute;
+  top: 162px;
+  left: 78px;
+  width: 17px;
+  height: 45px;
+  border-radius: 100% 0 0 0;
+  border-top: 19px solid $color-1;
+  border-left: 10px solid $color-1;
+  transform: rotate(-30deg) scaleX(-1);
+  z-index: -1;
+  animation: foot-right 1.2s linear infinite 1s forwards;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 34px;
+    left: -1px;
+    width: 7px;
+    height: 43px;
+    border-radius: 100% 0 0 0;
+    border-top: 13px solid $color-1;
+    border-left: 5px solid $color-1;
+    transform: rotate(-39deg);
+    //animation: eyelid 3s ease infinite 1s forwards;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    top: 70px;
+    left: -8px;
+    width: 14px;
+    height: 21px;
+    border-radius: 100% 0 0 0;
+    border-top: 2px solid $color-1;
+    border-left: 7px solid $color-1;
+    transform: rotate(213deg);
+    //animation: eyelid 3s ease infinite 1s forwards;
+  }
+}

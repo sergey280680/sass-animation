@@ -1,0 +1,20 @@
+@import "../../variable";
+.head__right-eye,
+.head__left-eye {
+  position: absolute;
+  height: 47px;
+  width: 26px;
+  border-radius: 124% 91% 100% 82%;
+  background: #ffffff;
+  border: $border;
+}
+.head__left-eye {
+  left: 100px;
+  top: -14px;
+  transform: rotate(-16deg);
+}
+.head__right-eye {
+  left: 133px;
+  top: -18px;
+  transform: rotate(9deg);
+}

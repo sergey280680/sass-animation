@@ -27,9 +27,8 @@
     "gulp-flatmap": "^1.0.2",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2",
-    "lazypipe": "^1.0.2"
+    "lazypipe": "^1.0.2",
+    "node-sass": "^4.13.1"
   },
-  "dependencies": {
-    "keyframe": "^2.1.0"
-  }
+  "dependencies": {}
 }

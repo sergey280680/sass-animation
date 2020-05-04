@@ -1,0 +1,11 @@
+
+@import "../variable";
+.road {
+  position: absolute;
+  background: $ground;
+  width: 100%;
+  height: 266px;
+  top: 480px;
+  z-index: -5;
+
+}

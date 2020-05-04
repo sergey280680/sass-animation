@@ -1,0 +1,14 @@
+@keyframes hand-right {
+  0% {
+    transform: rotate(13deg);
+}
+  50% {
+    transform: rotate(-100deg);
+    top: 22px;
+    left: 74px;
+}
+
+  100% {
+    transform: rotate(13deg);
+}
+}

@@ -2,7 +2,6 @@
 
 
 
-
 @mixin animation($animation-name, $duration, $timing-function, $iteration-count, $direction, $play-state, $delay, $fill-mode) {
   animation-name: $animation-name;
   animation-duration: $duration;
@@ -14,20 +13,6 @@
   animation-fill-mode: $fill-mode;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

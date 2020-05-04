@@ -1,0 +1,17 @@
+@keyframes foot-right {
+  0%, 50%, 100% {
+    transform: rotate(-30deg) scaleX(-1);
+    top: 162px;
+    left: 78px;
+  }
+  25% {
+    transform: rotate(-70deg) scaleX(-1);
+    top: 137px;
+    left: 120px;
+  }
+  75% {
+    transform: rotate(87deg) scaleX(-1);
+    top: 168px;
+    left: -6px;
+  }
+}

@@ -1,0 +1,14 @@
+
+@import "../../variable";
+
+
+.head__face {
+  position: absolute;
+  height: 100px;
+  width: 217px;
+  border-radius: 124% 91% 100% 82%;
+  background: $color-skin;
+  border: $border;
+  top: 50px;
+  animation: head 0.5s linear infinite 1s forwards;
+}

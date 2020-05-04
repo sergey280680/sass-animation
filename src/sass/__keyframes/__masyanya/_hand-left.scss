@@ -1,0 +1,12 @@
+@keyframes hand-left {
+  50% {
+    transform: rotate(42deg) scaleX(-1);
+    top: 12px;
+    left: 71px;
+  }
+  0%, 100% {
+    transform: rotate(-45deg) scaleX(-1);
+    top: 37px;
+    left: 142px;
+  }
+}

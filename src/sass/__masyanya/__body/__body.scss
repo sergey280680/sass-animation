@@ -1,0 +1,12 @@
+.body {
+  height: 164px;
+  width: 128px;
+  background: #fdd7a9;
+  position: absolute;
+  top: 360px;
+  border: 2px solid #000;
+  border-radius: 124% 91% 100% 82%;
+
+  animation: body-top 0.5s linear infinite 1s forwards;
+}
+

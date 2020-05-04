@@ -1,0 +1,10 @@
+@keyframes road {
+  100% {
+    background-position: 0 0, 300px 116px, 0 150px, 216px 0;
+    /*     background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px; */
+  }
+  0% {
+    background-position: 300px 0, 0 116px, 0 0, 216px 150px;
+    /*     background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px; */
+  }
+}
