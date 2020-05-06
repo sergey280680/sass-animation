@@ -1,0 +1,10 @@
+@keyframes ray-5 {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1) rotate(97deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5) rotate(97deg);
+  }
+}

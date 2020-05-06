@@ -1,0 +1,51 @@
+
+@import "../../variable";
+
+.sun-sky__ray {
+position: absolute;
+  background: $color-sun;
+  border-radius: 100% 100% 100% 100%;
+  z-index: -5;
+}
+.sun-sky__ray:nth-child(2) {
+  height: 4px;
+  width: 450px;
+  top: 46px;
+  left: -219px;
+  animation: ray-2 1.5s ease infinite forwards;
+}
+.sun-sky__ray:nth-child(3) {
+  height: 4px;
+  width: 340px;
+  top: 45px;
+  left: -125px;
+  animation: ray-3 1.5s ease infinite forwards;
+}
+.sun-sky__ray:nth-child(4) {
+  height: 4px;
+  width: 400px;
+  top: 31px;
+  left: -146px;
+  animation: ray-4 1.5s ease infinite forwards;
+}
+.sun-sky__ray:nth-child(5) {
+  height: 4px;
+  width: 450px;
+  top: 26px;
+  left: -178px;
+  animation: ray-5 2s ease infinite forwards;
+}
+.sun-sky__ray:nth-child(6) {
+  height: 4px;
+  width: 400px;
+  top: 57px;
+  left: -150px;
+  animation: ray-6 1.5s ease infinite forwards;
+}
+.sun-sky__ray:nth-child(7) {
+  height: 4px;
+  width: 450px;
+  top: 57px;
+  left: -165px;
+  animation: ray-7 2s ease infinite forwards;
+}

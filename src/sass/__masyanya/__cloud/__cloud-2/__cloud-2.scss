@@ -1,17 +1,16 @@
 
-@import "../variable";
-
-.cloud-3 {
+@import "../../variable";
+.cloud-2 {
   position: absolute;
-  top: 172px;
-  left: 630px;
+  top: 150px;
+  left: 110px;
   width: 34px;
   height: 34px;
   border-radius: 100% 100% 100% 0;
   background: $color-cloud;
-  animation: 3s cloud linear infinite;
-  animation-delay: -.8s;
-  opacity: 0.6;
+  animation: 2.5s cloud linear infinite;
+  animation-delay: -.5s;
+  opacity: .6;
 
   &:before {
     content: '';

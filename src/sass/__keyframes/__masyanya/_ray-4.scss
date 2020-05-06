@@ -1,0 +1,10 @@
+@keyframes ray-4 {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1) rotate(-50deg);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.5) rotate(-50deg);
+  }
+}

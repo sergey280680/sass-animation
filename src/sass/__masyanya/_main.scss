@@ -1,4 +1,8 @@
 @import "_masyanya";
+@import "__sun-sky/sun-sky";
+@import "__sun-sky/__sun/_sun";
+@import "__sun-sky/__sun-ray/_sun-ray";
+@import "__sun-sky/__ray/_ray";
 @import "__head/head";
 @import "__head/__face/_face";
 @import "__head/__eyes/_eyes";
@@ -18,6 +22,6 @@
 @import "__body/__foot/_foot-right";
 @import "__road/road";
 @import "__road/__line/_line";
-@import "__cloud-1/_cloud-1";
-@import "__cloud-2/_cloud-2";
-@import "__cloud-3/_cloud-3";
+@import "__cloud/__cloud-1/_cloud-1";
+@import "__cloud/__cloud-2/_cloud-2";
+@import "__cloud/__cloud-3/_cloud-3";

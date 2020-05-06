@@ -1,0 +1,11 @@
+
+@import "../../variable";
+
+.sun-sky__sun {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #ffd200;
+  border-radius: 50%;
+  box-shadow: 0 0 90px rgba(255,52,0,1)
+}
