@@ -9,7 +9,7 @@
   border-top: 9px solid $color-1;
   border-left: 2px solid $color-1;
   transform: rotate(13deg);
-  animation: hand-right 1s linear infinite 1s forwards;
+  animation: hand-right 1s linear infinite forwards;
 
   &:before {
     content: '';

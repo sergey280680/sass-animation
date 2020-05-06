@@ -7,7 +7,8 @@
   border-radius: 50% 35% 0 0;
   background: $color-skin;
   border: $border;
-  animation: eyelid 3s ease infinite 1s forwards;
+  //animation: eyelid 3s ease infinite 1s forwards;
+  @include body-tan (eyelid, tan, 3s, 20s)
 }
 .head__left-eyelid {
   left: 97px;

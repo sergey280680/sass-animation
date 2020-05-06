@@ -1,0 +1,9 @@
+
+
+
+@mixin body-tan ($name1, $name2, $duration1, $duration2){
+  animation-name: $name1, $name2;
+  animation-duration: $duration1, $duration2;
+  animation-iteration-count: infinite, 1;
+  animation-fill-mode: forwards;
+}

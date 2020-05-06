@@ -6,6 +6,7 @@
   top: 360px;
   border: 2px solid #000;
   border-radius: 124% 91% 100% 82%;
-  animation: body-top 0.5s linear infinite 1s forwards;
+  //animation: body-top 0.5s linear infinite,1 1s forwards;
+@include body-tan (body-top, tan, .5s, 20s)
 }
 

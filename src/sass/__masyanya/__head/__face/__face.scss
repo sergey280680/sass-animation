@@ -10,5 +10,6 @@
   background: $color-skin;
   border: $border;
   top: 50px;
-  animation: head 0.5s linear infinite 1s forwards;
+  //animation: head 0.5s linear infinite 1s forwards;
+  @include body-tan (head, tan, .5s, 20s)
 }

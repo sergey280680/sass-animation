@@ -11,7 +11,7 @@
   border-left: 2px solid $color-1;
   transform: rotate(4deg) scaleX(-1);
   z-index: -1;
-  animation: hand-left 1s linear infinite 1s forwards;
+  animation: hand-left 1s linear infinite forwards;
 
   &:before {
     content: '';
