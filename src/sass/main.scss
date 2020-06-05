@@ -6,12 +6,16 @@
 @import "__masyanya/main";
 
 
-
 //
-//
+//.block {
+//  height: 100px;
+//  width: 100px;
+//  background-color: #FFD200;
+//  margin: 50px auto;
+//}
 //.animation-any {
 //  @include animation(
-//                  four-circle,
+//                  blind-down,
 //                  3s,
 //                  ease,
 //                  2,
